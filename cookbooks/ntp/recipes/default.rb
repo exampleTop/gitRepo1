@@ -17,6 +17,7 @@ ntp_server = data_bag_item('ntp', 'default_server')
 template "/etc/ntp.conf" do
   source "ntp.conf.erb"
   variables( :ntp_server => ntp_server['value'] )
+  notifies :restart, "service[ntpd]"
 end
 
 service "ntpd" do

@@ -6,10 +6,7 @@
   },
   "run_list": [
     "role[chef-client]"
-  ],
-  "env_run_lists": {
-    "production": [
-      "role[chef-client]"
-    ]
-  }
+  ]
+   
 }
+

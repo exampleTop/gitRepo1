@@ -1,5 +1,5 @@
 default['wordpress']['version'] = 'latest'
 default['wordpress']['db']['name'] = 'wordpress'
-default['wordpress']['db']['host'] = 'node1'
+default['wordpress']['db']['host'] = 'localhost'
 default['wordpress']['db']['user'] = 'db1'
 default['wordpress']['db']['pass'] = 'Pas$word'

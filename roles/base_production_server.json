@@ -5,7 +5,7 @@
     "daemon interval": "node[\"chef_client\"][\"interval\"] = 500"
   },
   "run_list": [
-    "role[chef-client]"
+    "recipe[chef-client]"
   ]
    
 }
